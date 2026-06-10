@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="images/birdfavicon.png">
+    <title>TravelNest Budget Planner</title>
+</head>
+<body class="inner-page">
+    <header>
+        <div class="header-content-wrapper">
+            <div class="off-screen-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="explore.html">Explore</a></li>
+                    <li><a href="budget.html" class="current-page">Budget</a></li>
+                    <li><a href="generator.html">Generator</a></li>
+                    <li><a href="mood.html">Mood</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                </ul>
+            </div>
+
+            <nav class="navbar">
+                <div id="logo-container">
+                    <a href="index.html">
+                        <img src="images/TravelNest.png" alt="logo" id="header-logo">
+                    </a>
+                </div> 
+
+                <div class="ham-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main id="budget-planner-section">
+        <div id="budget-heading-container">
+            <h1 id="budget-main-title">Trip Budget Planner</h1>
+            <p id="budget-sub-text">Estimate your destination expenses, categorize your style level, and save your trip logs directly.</p>
+        </div>
+
+        <div class="budget-workspace-row">            
+            <div id="budget-input-card">
+                <form id="trip-calculator-form">
+                    <div class="budget-form-group">
+                        <label for="bp-destination" class="budget-form-label">Destination</label>
+                        <input type="text" id="bp-destination" placeholder="e.g., Kyoto, Bali, Paris" required>
+                    </div>
+
+                    <div class="budget-form-group">
+                        <label for="bp-days" class="budget-form-label">Number of Days</label>
+                        <input type="number" id="bp-days" min="1" placeholder="How many days?" required>
+                    </div>
+
+                    <div class="budget-form-group">
+                        <label for="bp-daily" class="budget-form-label">Daily Budget ($)</label>
+                        <input type="number" id="bp-daily" min="1" placeholder="Estimated daily spending" required>
+                    </div>
+                    <p id="budget-error" style="color: red; font-size: 0.9rem;"></p>
+                    <button type="submit" id="budget-submit-trigger">Calculate Budget</button>
+                </form>
+            </div>
+
+            <div id="budget-output-card">
+                <div id="budget-metrics-wrapper">
+                    <h2 id="budget-metrics-title">Calculation Metrics</h2>
+                    
+                    <div class="metric-display-node">
+                        <p class="metric-caption">Estimated Total Cost:</p>
+                        <h3 id="budget-total-counter">$0</h3>
+                    </div>
+
+                    <div class="metric-display-node">
+                        <p class="metric-caption">Budget Classification Status:</p>
+                        <span id="budget-status-badge">Awaiting Data...</span>
+                    </div>
+
+                    <div class="metric-display-node">
+                        <div id="budget-tier-indicators">
+                            <span class="tier-label">Low Tier</span>
+                            <span class="tier-label">Moderate Tier</span>
+                            <span class="tier-label">Luxury Tier</span>
+                        </div>
+                        <div id="budget-progress-track">
+                            <div id="budget-progress-bar"></div>
+                        </div>
+                    </div>
+
+                    <button type="button" id="budget-save-trigger">Save Trip to Dashboard</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="budget-history-container">
+            <h2 id="budget-history-title">Your Saved Itinerary Budgets</h2>
+            <div id="budget-saved-cards-grid">
+                </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div id="footer-links">
+            <p>Navigation</p>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="budget.html">Budget</a></li>
+                <li><a href="generator.html">Generator</a></li>
+                <li><a href="mood.html">Mood</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </div>
+        
+        <div id="footer-newsletter">
+            <div id="nlf-text-container">
+                <h2 id="nlf-title">Sign up to our Newsletter</h2>
+                <p id="nlf-description">Get weekly destination ideas straight to your inbox.</p>
+            </div>
+            <form id="newsletter-form">
+                <label for="nlf-email" class="nlf-label">empty label</label>
+                <input type="email" id="nlf-email" placeholder="Enter your email" required>
+                <p id="nlf-error"></p>
+                <button type="submit" id="nlf-btn">Subscribe</button>
+            </form>
+        </div>
+        
+        <div id="footer-trademarks">
+            <p>&copy; 2026 TravelNest. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body> 
+</html>

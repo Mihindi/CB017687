@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="images/birdfavicon.png">
+    <title>TravelNest Random Trip Generator</title>
+</head>
+<body class="inner-page">
+    <header>
+        <div class="header-content-wrapper">
+            <div class="off-screen-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="explore.html">Explore</a></li>
+                    <li><a href="budget.html">Budget</a></li>
+                    <li><a href="generator.html" class="current-page">Generator</a></li>
+                    <li><a href="mood.html">Mood</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                </ul>
+            </div>
+
+            <nav class="navbar">
+                <div id="logo-container">
+                    <a href="index.html">
+                        <img src="images/TravelNest.png" alt="logo" id="header-logo">
+                    </a>
+                </div> 
+
+                <div class="ham-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main id="generator-section">
+        <div id="generator-heading-container">
+            <h1 id="generator-main-title">Random Trip Generator</h1>
+            <p id="generator-sub-text">Can't decide where to head next? Customize your preferences and let us curate your perfect matching destination.</p>
+        </div>
+
+        <div class="generator-workspace-row">
+            
+            <div id="generator-filter-card">
+                <form id="trip-generator-form">
+                    
+                    <div class="generator-form-group">
+                        <label for="generator-travel-type" class="generator-form-label">Travel Type</label>
+                        <select id="generator-travel-type" required>
+                            <option value="" disabled selected>Select an experience type...</option>
+                            <option value="adventure">Adventure</option>
+                            <option value="relaxation">Relaxation</option>
+                            <option value="cultural">Cultural</option>
+                            <option value="nature">Nature</option>
+                        </select>
+                    </div>
+
+                    <div class="generator-form-group">
+                        <label for="generator-budget-range" class="generator-form-label">Budget Range</label>
+                        <select id="generator-budget-range" required>
+                            <option value="" disabled selected>Select a budget tier...</option>
+                            <option value="low">Low Budget</option>
+                            <option value="medium">Medium Budget</option>
+                            <option value="high">Luxury Budget</option>
+                        </select>
+                    </div>
+                    <p id="generator-error" style="color: red; font-size: 0.9rem;"></p>
+                    <button type="submit" id="generator-submit-trigger">Generate Destination</button>
+                </form>
+            </div>
+
+            <div id="generator-output-card">
+                <div id="generator-metrics-wrapper">
+                    <h2 id="generator-metrics-title">Your Next Adventure</h2>
+                    
+                    <div id="generator-result-display">
+                        <div class="metric-display-node hidden">
+                            <p class="metric-caption">Suggested Destination:</p>
+                            <h3 id="generator-destination-name">Awaiting Choices...</h3>
+                        </div>
+
+                        <div class="metric-display-node hidden">
+                            <p class="metric-caption">About This Location:</p>
+                            <p id="generator-destination-description">Fill out your filters and trigger the matchmaker to pull down destination properties.</p>
+                        </div>
+                    </div>
+
+                    <div id="generator-actions-dock" style="display: none;">
+                        <button type="button" id="generator-surprise-trigger" class="surprise-animation-target">Surprise Me Again</button>
+                        <button type="button" id="generator-save-trigger">Add to Personal Wishlist</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="wishlist-history-container">
+            <h2 id="wishlist-history-title">Your Destination Wishlist</h2>
+            <div id="wishlist-saved-cards-grid">
+                </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div id="footer-links">
+            <p>Navigation</p>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="budget.html">Budget</a></li>
+                <li><a href="generator.html">Generator</a></li>
+                <li><a href="mood.html">Mood</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </div>
+        
+        <div id="footer-newsletter">
+            <div id="nlf-text-container">
+                <h2 id="nlf-title">Sign up to our Newsletter</h2>
+                <p id="nlf-description">Get weekly destination ideas straight to your inbox.</p>
+            </div>
+            <form id="newsletter-form">
+                <label for="nlf-email" class="nlf-label">empty label</label>
+                <input type="email" id="nlf-email" placeholder="Enter your email" required>
+                <p id="nlf-error"></p>
+                <button type="submit" id="nlf-btn">Subscribe</button>
+            </form>
+        </div>
+        
+        <div id="footer-trademarks">
+            <p>&copy; 2026 TravelNest. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body> 
+</html>

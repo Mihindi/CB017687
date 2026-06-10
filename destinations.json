@@ -1,0 +1,344 @@
+[
+    {
+        "name": "Bali",
+        "country": "Indonesia",
+        "continent": "Asia",
+        "description": "A tropical Indonesian island where ancient temples meet lush rice terraces and vibrant surf culture.",
+        "attractions": [
+            "Tanah Lot Temple",
+            "Ubud Monkey Forest",
+            "Tegallalang Rice Terraces",
+            "Seminyak Beach"
+        ],
+        "costs": {
+            "budget": "$30-50/day",
+            "mid": "$80-150/day",
+            "luxury": "$300+/day"
+        },
+        "type": "• Nature & Culture",
+        "image": "https://media.digitalnomads.world/wp-content/uploads/2021/01/20120709/bali-for-digital-nomads.jpg"
+    },
+    {
+        "name": "Kyoto",
+        "country": "Japan",
+        "continent": "Asia",
+        "description": "Japan's cultural heart, home to thousands of shrines, traditional tea houses, and breathtaking cherry blossoms.",
+        "attractions": [
+            "Fushimi Inari Shrine",
+            "Arashiyama Bamboo Grove",
+            "Kinkaku-ji Temple",
+            "Gion District"
+        ],
+        "costs": {
+            "budget": "$50-80/day",
+            "mid": "$150-250/day",
+            "luxury": "$500+/day"
+        },
+        "type": "• Historical",
+        "image": "https://media.cnn.com/api/v1/images/stellar/prod/150726183949-kyoto-guide-kiyomizu.jpg?q=w_2200,h_1464,x_0,y_0,c_fill"
+    },
+    {
+        "name": "Bangkok",
+        "country": "Thailand",
+        "continent": "Asia",
+        "description": "A vibrant city of ornate temples, bustling street markets, and a legendary food scene that never sleeps.",
+        "attractions": [
+            "Grand Palace",
+            "Wat Pho",
+            "Chatuchak Market",
+            "Chao Phraya River"
+        ],
+        "costs": {
+            "budget": "$25-40/day",
+            "mid": "$70-120/day",
+            "luxury": "$250+/day"
+        },
+        "type": "• Cultural",
+        "image": "https://vpt-en.b-cdn.net/wp-content/uploads/b/42/Bangkok-venice.jpg.webp"
+    },
+    {
+        "name": "Santorini",
+        "country": "Greece",
+        "continent": "Europe",
+        "description": "A stunning Greek island of whitewashed clifftop villages, dramatic caldera views, and golden sunsets.",
+        "attractions": [
+            "Oia Village",
+            "Red Beach",
+            "Akrotiri Archaeological Site",
+            "Fira Caldera"
+        ],
+        "costs": {
+            "budget": "$80-120/day",
+            "mid": "$200-350/day",
+            "luxury": "$600+/day"
+        },
+        "type": "• Relaxation",
+        "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGg1U19I5ILttTdtbYu55LPOskn1dwWWTwajxNxBzR-LRSAMTXpA3AHAaG9se12-OGnPeVhplxxohrQr9EzT5u3q1ROKsieOF1AP8xSGS-nC82Zp9VlP74ZU3nJ26-OKOyO0OJL=w675-h390-n-k-no"
+    },
+    {
+        "name": "Amalfi Coast",
+        "country": "Italy",
+        "continent": "Europe",
+        "description": "A dramatic stretch of Italian coastline where colourful cliffside villages tumble down to crystal-clear Mediterranean waters.",
+        "attractions": [
+            "Positano Village",
+            "Path of the Gods",
+            "Ravello Gardens",
+            "Amalfi Cathedral"
+        ],
+        "costs": {
+            "budget": "$90-130/day",
+            "mid": "$200-350/day",
+            "luxury": "$600+/day"
+        },
+        "type": "• Scenic",
+        "image": "https://www.royalcaribbean.com/media-assets/pmc/content/dam/shore-x/amalfi-coast-salerno-sno/es61-capri-on-your-own/stock-positano-amalfi-coast-campania-sorrento-italy-376017433.jpg?w=1920"
+    },
+    {
+        "name": "Prague",
+        "country": "Czech Republic",
+        "continent": "Europe",
+        "description": "A fairytale Central European city of gothic architecture, cobblestone streets, and a rich medieval history.",
+        "attractions": [
+            "Prague Castle",
+            "Charles Bridge",
+            "Old Town Square",
+            "Astronomical Clock"
+        ],
+        "costs": {
+            "budget": "$40-60/day",
+            "mid": "$100-180/day",
+            "luxury": "$350+/day"
+        },
+        "type": "• Historical",
+        "image": "https://cdn2.civitatis.com/republica-checa/praga/guia/prague-charles-denv.jpg"
+    },
+    {
+        "name": "Marrakech",
+        "country": "Morocco",
+        "continent": "Africa",
+        "description": "A sensory Moroccan city of bustling souks, ornate riads, and the lively chaos of Djemaa el-Fna square.",
+        "attractions": [
+            "Djemaa el-Fna",
+            "Majorelle Garden",
+            "Bahia Palace",
+            "Medina Souks"
+        ],
+        "costs": {
+            "budget": "$30-50/day",
+            "mid": "$80-150/day",
+            "luxury": "$300+/day"
+        },
+        "type": "• Cultural",
+        "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRW65pi9kQIwqm39LAc_8te4_zg3EsG874v9ElClQUQtlxbo_2vUQAlI8IdzlwUiAqtLYZ13HBm-Ov2UmbIHgXepUc&s=19"
+    },
+    {
+        "name": "Cape Town",
+        "country": "South Africa",
+        "continent": "Africa",
+        "description": "A breathtaking coastal city where dramatic mountains meet pristine beaches and world-class food and wine.",
+        "attractions": [
+            "Table Mountain",
+            "Cape of Good Hope",
+            "Robben Island",
+            "Boulders Beach"
+        ],
+        "costs": {
+            "budget": "$40-70/day",
+            "mid": "$120-200/day",
+            "luxury": "$400+/day"
+        },
+        "type": "• Nature & Culture",
+        "image": "https://media-cdn.tripadvisor.com/media/photo-c/1280x250/14/10/2e/1e/cape-town.jpg"
+    },
+    {
+        "name": "Zanzibar",
+        "country": "Tanzania",
+        "continent": "Africa",
+        "description": "A spice island off the Tanzanian coast with powder-white beaches, turquoise waters, and a rich Swahili heritage.",
+        "attractions": [
+            "Stone Town",
+            "Nungwi Beach",
+            "Spice Farms",
+            "Prison Island"
+        ],
+        "costs": {
+            "budget": "$40-60/day",
+            "mid": "$100-200/day",
+            "luxury": "$400+/day"
+        },
+        "type": "• Relaxation",
+        "image": "https://www.tanzania-experience.com/wp-content/uploads/2023/12/zanzibar-beach.jpg"
+    },
+    {
+        "name": "Banff",
+        "country": "Canada",
+        "continent": "North America",
+        "description": "A breathtaking Canadian mountain town nestled inside a national park of turquoise lakes and snow-capped Rocky Mountain peaks.",
+        "attractions": [
+            "Lake Louise",
+            "Moraine Lake",
+            "Banff Gondola",
+            "Johnston Canyon"
+        ],
+        "costs": {
+            "budget": "$80-120/day",
+            "mid": "$180-300/day",
+            "luxury": "$500+/day"
+        },
+        "type": "• Wilderness",
+        "image": "https://welltraveledclub.sfo3.digitaloceanspaces.com/wt/media/82059/jacky-huang-6rC8fmNW3pk-unsplash.jpg"
+    },
+    {
+        "name": "New York City",
+        "country": "USA",
+        "continent": "North America",
+        "description": "The city that never sleeps — an electrifying metropolis of iconic skylines, world-class culture, and endless energy.",
+        "attractions": [
+            "Central Park",
+            "Times Square",
+            "Statue of Liberty",
+            "Metropolitan Museum of Art"
+        ],
+        "costs": {
+            "budget": "$100-150/day",
+            "mid": "$250-400/day",
+            "luxury": "$700+/day"
+        },
+        "type": "• Urban",
+        "image": "https://www.metro-manhattan.com/wp-content/uploads/2025/04/iStock-1406960186.jpg"
+    },
+    {
+        "name": "Mexico City",
+        "country": "Mexico",
+        "continent": "North America",
+        "description": "A sprawling capital with a rich Aztec past, incredible street food, colourful neighbourhoods, and world-class museums.",
+        "attractions": [
+            "Teotihuacan Pyramids",
+            "Zocalo Square",
+            "Frida Kahlo Museum",
+            "Xochimilco"
+        ],
+        "costs": {
+            "budget": "$30-50/day",
+            "mid": "$80-140/day",
+            "luxury": "$300+/day"
+        },
+        "type": "• Cultural",
+        "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/14/60/19/fc.jpg"
+    },
+    {
+        "name": "Machu Picchu",
+        "country": "Peru",
+        "continent": "South America",
+        "description": "A mysterious Incan citadel perched high in the Peruvian Andes, surrounded by cloud forest and mountain peaks.",
+        "attractions": [
+            "Sun Gate",
+            "Intihuatana Stone",
+            "Temple of the Sun",
+            "Huayna Picchu Mountain"
+        ],
+        "costs": {
+            "budget": "$50-80/day",
+            "mid": "$120-200/day",
+            "luxury": "$400+/day"
+        },
+        "type": "• Adventure",
+        "image": "https://www.metropolitan-touring.com/wp-content/uploads/2023/04/machu-picchu-peru-1.webp"
+    },
+    {
+        "name": "Rio de Janeiro",
+        "country": "Brazil",
+        "continent": "South America",
+        "description": "A vibrant Brazilian city of samba rhythms, stunning beaches, and iconic landmarks set against lush mountain backdrops.",
+        "attractions": [
+            "Christ the Redeemer",
+            "Copacabana Beach",
+            "Sugarloaf Mountain",
+            "Santa Teresa District"
+        ],
+        "costs": {
+            "budget": "$40-70/day",
+            "mid": "$120-200/day",
+            "luxury": "$400+/day"
+        },
+        "type": "• Nature & Culture",
+        "image": "https://images.goway.com/production/featured_images/Aerial%20view%20over%20Rio%20de%20Janeiro%20at%20Night%20as%20viewed%20from%20Corcovado%2C%20Brazil_shutterstock_319863218.jpg?VersionId=w.2QzTVP00YmS7ZDLgX8m1Y311Gku18h"
+    },
+    {
+        "name": "Cartagena",
+        "country": "Colombia",
+        "continent": "South America",
+        "description": "A beautifully preserved colonial Caribbean city of colourful streets, historic fortresses, and warm turquoise waters.",
+        "attractions": [
+            "Walled City",
+            "Castillo San Felipe",
+            "Rosario Islands",
+            "Old Town Plaza"
+        ],
+        "costs": {
+            "budget": "$35-55/day",
+            "mid": "$90-150/day",
+            "luxury": "$300+/day"
+        },
+        "type": "• Scenic",
+        "image": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/09/bf/57/a4.jpg"
+    },
+    {
+        "name": "Sydney",
+        "country": "Australia",
+        "continent": "Australia",
+        "description": "A sun-drenched harbour city of iconic architecture, golden beaches, and a laid-back lifestyle that's hard to leave.",
+        "attractions": [
+            "Sydney Opera House",
+            "Bondi Beach",
+            "Harbour Bridge",
+            "Blue Mountains"
+        ],
+        "costs": {
+            "budget": "$80-120/day",
+            "mid": "$200-350/day",
+            "luxury": "$600+/day"
+        },
+        "type": "• Urban",
+        "image": "https://images.squarespace-cdn.com/content/v1/55ee34aae4b0bf70212ada4c/1577545161018-1F9Z9ZZQG9JO2O4WCWQX/keith-zhu-qaNcz43MeY8-unsplash+%281%29.jpg?format=1500w"
+    },
+    {
+        "name": "Queenstown",
+        "country": "New Zealand",
+        "continent": "Australia",
+        "description": "The adventure capital of the world, set on a stunning glacial lake surrounded by the dramatic Remarkables mountain range.",
+        "attractions": [
+            "Skyline Gondola",
+            "Milford Sound",
+            "Bungee Jumping",
+            "Lake Wakatipu"
+        ],
+        "costs": {
+            "budget": "$70-100/day",
+            "mid": "$180-300/day",
+            "luxury": "$500+/day"
+        },
+        "type": "• Adventure",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Queenstown_1_%288168013172%29.jpg"
+    },
+    {
+        "name": "Cappadocia",
+        "country": "Turkey",
+        "continent": "Asia",
+        "description": "A surreal Turkish landscape of fairy chimneys and cave dwellings, best explored by hot air balloon at dawn.",
+        "attractions": [
+            "Göreme Open Air Museum",
+            "Hot Air Balloon Rides",
+            "Underground Cities",
+            "Uchisar Castle"
+        ],
+        "costs": {
+            "budget": "$40-60/day",
+            "mid": "$100-180/day",
+            "luxury": "$350+/day"
+        },
+        "type": "• Unique Experience",
+        "image": "https://cdn-imgix.headout.com/media/images/593f3cb6fecef835add9d84a1bf85f3b-24758-cappadocia-private-green-tour-cappadocia--private-vehicle---guide--01.jpg"
+    }
+]

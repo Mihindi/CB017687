@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="images/birdfavicon.png">
+    <title>Welcome to TravelNest</title>
+</head>
+<body>
+    <header>
+        <div class="header-content-wrapper">
+            <div class="off-screen-menu">
+                <ul>
+                    <li><a href="index.html" class="current-page">Home</a></li>
+                    <li><a href="explore.html">Explore</a></li>
+                    <li><a href="budget.html">Budget</a></li>
+                    <li><a href="generator.html">Generator</a></li>
+                    <li><a href="mood.html">Mood</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                </ul>
+            </div>
+
+            <nav class="navbar">
+                <div id="logo-container">
+                    <a href="index.html">
+                        <img src="images/TravelNest.png" alt="logo" id="header-logo">
+                    </a>
+                </div> 
+
+                <div class="ham-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="hero-highlights">
+            <div id="hero-card">
+                <img id="hero-image" alt="destination highlight" src="images/logo.png">
+                <div id="hero-name"></div>
+            </div>
+            <div id="hero-description"></div>
+        </div>
+
+        <div class="destination-otd">
+            <div class="dotd-top-row">
+                <div class="text-container">
+                    <div id="dotd-text"><h4>Destination of the Day</h4></div>
+                    <div class="dotd-sub-info">
+                        <div id="dotd-name">Kyoto</div>
+                        <div id="dotd-type">Cultural</div>
+                    </div>
+                </div>                   
+                <button type="button" id="dotd-explore-btn">Dive Deeper</button>  
+            </div>
+
+             <div class="dotd-image-wrapper">
+                <img src="images/logo.png" alt="destination of the day img" id="dotd-img">
+            </div> 
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div id="footer-links">
+            <p>Navigation</p>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="budget.html">Budget</a></li>
+                <li><a href="generator.html">Generator</a></li>
+                <li><a href="mood.html">Mood</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </div>
+        
+        <div id="footer-newsletter">
+            <div id="nlf-text-container">
+                <h2 id="nlf-title">Sign up to our Newsletter</h2>
+                <p id="nlf-description">Get weekly destination ideas straight to your inbox.</p>
+            </div>
+            <form id="newsletter-form">
+                <label for="nlf-email" class="nlf-label">empty label</label>
+                <input type="email" id="nlf-email" placeholder="Enter your email" required>
+                <p id="nlf-error"></p>
+                <button type="submit" id="nlf-btn">Subscribe</button>
+            </form>
+        </div>
+        
+        <div id="footer-trademarks">
+            <p>&copy; 2026 TravelNest. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

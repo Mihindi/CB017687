@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="images/birdfavicon.png">
+    <title>Travel Mood</title>
+</head>
+<body class="inner-page">
+    <header>
+        <div class="header-content-wrapper">
+            <div class="off-screen-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="explore.html">Explore</a></li>
+                    <li><a href="budget.html">Budget</a></li>
+                    <li><a href="generator.html">Generator</a></li>
+                    <li><a href="mood.html" class="current-page">Mood</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                </ul>
+            </div>
+
+            <nav class="navbar">
+                <div id="logo-container">
+                    <a href="index.html">
+                        <img src="images/TravelNest.png" alt="logo" id="header-logo">
+                    </a>
+                </div> 
+
+                <div class="ham-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main id="mood-planner-section">
+        <div id="mood-heading-container">
+            <h1 id="mood-main-title">Set Your Travel Mood</h1>
+            <p id="mood-sub-text">Immerse yourself in ambient acoustic soundscapes and manage your visited or planned dream getaways.</p>
+        </div>
+
+        <div class="mood-workspace-row">
+            <section id="mood-audio-card" class="explore-dest-card">
+                <h2 class="metric-caption">Ambient Soundscapes</h2>
+                
+                <div id="audio-toggles-container">
+                    <div class="dotd-top-row">
+                        <div class="text-container">
+                            <span class="mood-sound-name">Sunny Beachfront</span>
+                            <span class="mood-sound-type">Crashing waves & seabirds</span>
+                        </div>
+                        <button type="button" class="audio-toggle-btn" data-sound="beach">Play</button>
+                    </div>
+
+                    <div class="dotd-top-row">
+                        <div class="text-container">
+                            <span class="mood-sound-name">Mystic Forest</span>
+                            <span class="mood-sound-type">Rustling leaves & gentle rain</span>
+                        </div>
+                        <button type="button" class="audio-toggle-btn" data-sound="forest">Play</button>
+                    </div>
+
+                    <div class="dotd-top-row">
+                        <div class="text-container">
+                            <span class="mood-sound-name">City Night</span>
+                            <span class="mood-sound-type">Midnight breeze & faint sirens</span>
+                        </div>
+                        <button type="button" class="audio-toggle-btn" data-sound="city">Play</button>
+                    </div>
+                </div>
+            </section>
+
+            <section id="mood-tracker-card">
+                <div id="generator-metrics-wrapper">
+                    <h3 id="generator-metrics-title">Destination Status Mapper</h3>
+                    
+                    <form id="mood-tracker-form">
+                        <div class="generator-form-group">
+                            <label for="tracker-dest-select" class="generator-form-label">Select Destination</label>
+                            <select id="tracker-dest-select" required>
+                                <option value="" disabled selected>Choose a global hub...</option>
+                            </select>
+                        </div>
+
+                        <div class="generator-form-group">
+                            <label for="tracker-status-select" class="generator-form-label">Set Your Horizon</label>
+                            <select id="tracker-status-select" required>
+                                <option value="" disabled selected>Select a status...</option>
+                                <option value="planned">Planned</option>
+                                <option value="visited">Visited</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" id="budget-submit-trigger">Update Journal Log</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+
+        <div id="wishlist-history-container">
+            <h2 id="wishlist-history-title">Your Pinboard & Visited Journal</h2>
+            <div id="wishlist-saved-cards-grid"></div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div id="footer-links">
+            <p>Navigation</p>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="budget.html">Budget</a></li>
+                <li><a href="generator.html">Generator</a></li>
+                <li><a href="mood.html">Mood</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </div>
+        
+        <div id="footer-newsletter">
+            <div id="nlf-text-container">
+                <h2 id="nlf-title">Sign up to our Newsletter</h2>
+                <p id="nlf-description">Get weekly destination ideas straight to your inbox.</p>
+            </div>
+            <form id="newsletter-form">
+                <label for="nlf-email" class="nlf-label">empty label</label>
+                <input type="email" id="nlf-email" placeholder="Enter your email" required>
+                <p id="nlf-error"></p>
+                <button type="submit" id="nlf-btn">Subscribe</button>
+            </form>
+        </div>
+        
+        <div id="footer-trademarks">
+            <p>&copy; 2026 TravelNest. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body> 
+</html>

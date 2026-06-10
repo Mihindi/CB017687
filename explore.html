@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="images/birdfavicon.png">
+    <title>Explore The World</title>
+</head>
+<body class="inner-page">
+    <header>
+        <div class="header-content-wrapper">
+            <div class="off-screen-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="explore.html" class="current-page">Explore</a></li>
+                    <li><a href="budget.html">Budget</a></li>
+                    <li><a href="generator.html">Generator</a></li>
+                    <li><a href="mood.html">Mood</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                </ul>
+            </div>
+
+            <nav class="navbar">
+                <div id="logo-container">
+                    <a href="index.html">
+                        <img src="images/TravelNest.png" alt="logo" id="header-logo">
+                    </a>
+                </div> 
+
+                <div class="ham-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div id="explore-features">
+            <div id="explore-search">
+                <form id="explore-search-form">
+                    <label for="explore-search-input"></label>                    
+                    <input placeholder="Search by name" id="explore-search-input" type="search" required>
+                    <button type="submit" id="explore-search-btn"><img src="images/search.svg" alt="search avg"></button>  
+                </form>                    
+            </div>
+            
+            <div id="explore-filter">
+                <div class="filter-icon-container">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>                
+                <div>Filter</div>
+            </div>
+
+            <div id="filter-menu">
+                <form id="filter-form">
+
+                    <label class="filter-label" for="filter-asia">Asia</label>
+                    <input type="checkbox" name="Asia" id="filter-asia">
+
+                    <label class="filter-label" for="filter-europe">Europe</label>
+                    <input type="checkbox" name="Europe" id="filter-europe">
+
+                    <label class="filter-label" for="filter-africa">Africa</label>
+                    <input type="checkbox" name="Africa" id="filter-africa">
+
+                    <label class="filter-label" for="filter-na">North America</label>
+                    <input type="checkbox" name="North America" id="filter-na">
+
+                    <label class="filter-label" for="filter-sa">South America</label>
+                    <input type="checkbox" name="South America" id="filter-sa">
+
+                    <label class="filter-label" for="filter-australia">Australia</label>
+                    <input type="checkbox" name="Australia" id="filter-australia">
+                </form>
+            </div>
+        </div> 
+
+        <div id="explore-dest-grid">
+            <!-- <div id="explore-dest-card">
+                <div class="explore-card-img">
+                    <img class="explore-img" alt="destination image" src="">
+                </div>
+                <div class="explore-card-text">
+                    <h4 class="explore-card-name"></h4>
+                    <h6 class="explore-card-country"></h6>
+                </div>
+            </div> -->
+        </div>
+        
+        <div id="explore-deep" class="modal-overlay">
+            <div class="modal-box">
+                <button id="modal-close">✕</button>
+                <img id="modal-img" src="images/logo.png" alt="">
+                <h2 id="modal-name"></h2>
+                <p id="modal-description"></p>
+                <h3>Popular Attractions</h3>
+                <ul id="modal-attractions"></ul>
+                <h3>Travel Costs</h3>
+                <table id="modal-costs">
+                    <thead>
+                        <tr>
+                            <th>Budget</th>
+                            <th>Mid-Range</th>
+                            <th>Luxury</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="modal-budget"></td>
+                            <td id="modal-mid"></td>
+                            <td id="modal-luxury"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div id="footer-links">
+            <p>Navigation</p>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="budget.html">Budget</a></li>
+                <li><a href="generator.html">Generator</a></li>
+                <li><a href="mood.html">Mood</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </div>
+        
+        <div id="footer-newsletter">
+            <div id="nlf-text-container">
+                <h2 id="nlf-title">Sign up to our Newsletter</h2>
+                <p id="nlf-description">Get weekly destination ideas straight to your inbox.</p>
+            </div>
+            <form id="newsletter-form">
+                <label for="nlf-email" class="nlf-label">empty label</label>
+                <input type="email" id="nlf-email" placeholder="Enter your email" required>
+                <p id="nlf-error"></p>
+                <button type="submit" id="nlf-btn">Subscribe</button>
+            </form>
+        </div>
+        
+        <div id="footer-trademarks">
+            <p>&copy; 2026 TravelNest. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body> 
+</html>

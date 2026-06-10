@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="images/birdfavicon.png">
+    <title>Help & Feedback</title>
+</head>
+<body class="inner-page">
+    <header>
+        <div class="header-content-wrapper">
+            <div class="off-screen-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="explore.html">Explore</a></li>
+                    <li><a href="budget.html">Budget</a></li>
+                    <li><a href="generator.html">Generator</a></li>
+                    <li><a href="mood.html">Mood</a></li>
+                    <li><a href="feedback.html" class="current-page">Feedback</a></li>
+                </ul>
+            </div>
+
+            <nav class="navbar">
+                <div id="logo-container">
+                    <a href="index.html">
+                        <img src="images/TravelNest.png" alt="logo" id="header-logo">
+                    </a>
+                </div> 
+
+                <div class="ham-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main id="feedback-support-section">
+        <div id="feedback-heading-container">
+            <h1 id="feedback-main-title">Feedback & Support</h1>
+            <p id="feedback-sub-text">Have a question or want to share your travel experiences? Drop us a line or browse our frequently asked questions.</p>
+        </div>
+
+        <div class="feedback-workspace-row">
+            
+            <section id="feedback-input-card">
+                <h2 id="budget-history-title">Send us a Message</h2>
+                
+                <form id="feedback-form" action="#" method="POST">
+                    <div class="budget-form-group">
+                        <label for="feedback-name" class="budget-form-label">Full Name</label>
+                        <input type="text" id="feedback-name" placeholder="Your name" required>
+                    </div>
+
+                    <div class="budget-form-group">
+                        <label for="feedback-email" class="budget-form-label">Email Address</label>
+                        <input type="email" id="feedback-email" placeholder="name@example.com" required>
+                    </div>
+
+                    <div class="budget-form-group">
+                        <label for="feedback-message" class="budget-form-label">Your Message</label>
+                        <textarea id="feedback-message" placeholder="How can we help your journey?" required rows="5"></textarea>
+                    </div>
+                    <p id="feedback-error"></p>
+                    <button type="submit" id="feedback-submit-trigger">Submit Feedback</button>
+                </form>
+            </section>
+
+            <section id="budget-output-card">
+                <h3 id="budget-metrics-title">Frequently Asked Questions</h3>
+                
+                <div id="faq-accordion-wrapper">
+                    
+                    <div class="faq-node">
+                        <div class="faq-trigger-header">
+                            <span>How can I save my customized itinerary budgets?</span>
+                            <span class="faq-icon">+</span>
+                        </div>
+                        <div class="faq-content-pane">
+                            <p>Your budgets save automatically right onto your computer or phone whenever you click the "Save" button. This means your plans will be waiting for you whenever you return to this website on the same device, even if you close the window!</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-node">
+                        <div class="faq-trigger-header">
+                            <span>Does TravelNest support offline capabilities?</span>
+                            <span class="faq-icon">+</span>
+                        </div>
+                        <div class="faq-content-pane">
+                            <p>Mostly! You can still use the Budget Planner, the Random Trip Generator, and look at all your saved trips without internet. However, because the destination pictures are loaded from the web, you will need an active internet connection for the images to display properly.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-node">
+                        <div class="faq-trigger-header">
+                            <span>How are matching prices generated?</span>
+                            <span class="faq-icon">+</span>
+                        </div>
+                        <div class="faq-content-pane">
+                            <p>All lodging, daily food arrays, and attraction cost matrix tables populate natively from our optimized offline destinations database data file.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div id="footer-links">
+            <p>Navigation</p>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="budget.html">Budget</a></li>
+                <li><a href="generator.html">Generator</a></li>
+                <li><a href="mood.html">Mood</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </div>
+        
+        <div id="footer-newsletter">
+            <div id="nlf-text-container">
+                <h2 id="nlf-title">Sign up to our Newsletter</h2>
+                <p id="nlf-description">Get weekly destination ideas straight to your inbox.</p>
+            </div>
+            <form id="newsletter-form">
+                <label for="nlf-email" class="nlf-label">empty label</label>
+                <input type="email" id="nlf-email" placeholder="Enter your email" required>
+                <p id="nlf-error"></p>
+                <button type="submit" id="nlf-btn">Subscribe</button>
+            </form>
+        </div>
+        
+        <div id="footer-trademarks">
+            <p>&copy; 2026 TravelNest. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body> 
+</html>
